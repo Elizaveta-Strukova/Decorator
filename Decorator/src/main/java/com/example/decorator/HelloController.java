@@ -66,12 +66,4 @@ public class HelloController {
         tree.draw(paneTree);
     }
 
-    public void addSandG(ActionEvent actionEvent) {
-
-        paneTree.toFront();
-        ChristmasTree tree =  new Girland(new Star(new ChristmasTreeImpl()));
-        tree.draw(paneTree);
-
-
-    }
 }
